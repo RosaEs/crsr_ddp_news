@@ -1,0 +1,22 @@
+---
+title: "Documentation"
+author: "Benjamin Greve"
+date: "Sunday, September 21, 2014"
+output: html_document
+---
+
+## Description
+
+This app takes a search term and retrieves related news articles from the [Feedzilla-API](https://code.google.com/p/feedzilla-api/wiki/RestApi). It displays a list of headlines with links to the articles and a table with the number of articles by source.  
+
+You might have to wait a few seconds (usually not more than 5 seconds) for the Feedzilla-API to respond to the query before you get the output.  
+
+This program was supposed to do some more complex analyses and show a few more statistics or plots, e.g. for the terms used in the headlines or the articles summaries, but due to the time constraints, I had to limit the functionality as described above.
+
+## Input
+
+A single search term without spaces or special characters.
+
+## Output
+
+The queried search term, a table with the number of articles by source and a list of headlines with links to the articles.
